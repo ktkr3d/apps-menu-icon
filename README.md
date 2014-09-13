@@ -1,4 +1,4 @@
 apps-menu-icon
 ==============
 
-Change Applications Menu Extension Button to Icon
+Change Applications Menu GNOME Shell Extension Button to Icon

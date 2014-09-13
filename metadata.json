@@ -1,0 +1,10 @@
+{
+	"shell-version": [
+		"3.14",
+		"3.13.91",
+		"3.12",
+		"3.10"],
+	"uuid": "apps-menu-icon@ktkr3d.github.io",
+	"name": "Applications Menu Icon",
+	"description": "Change Applications Menu GNOME Shell Extension Button to Icon"
+}
