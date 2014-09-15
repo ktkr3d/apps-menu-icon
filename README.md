@@ -8,31 +8,6 @@ apps-menu-icon
 Install
 ======
 
-Extract files.
-
-``` bash
-$ tree -a .local/share/gnome-shell/extensions/apps-menu-icon@ktkr3d.github.io/
-.local/share/gnome-shell/extensions/apps-menu-icon@ktkr3d.github.io/
-├── convenience.js
-├── convenience2.js
-├── extension.js
-├── icons
-│   ├── Debian.png
-│   ├── Fedora.png
-│   ├── Gentoo.png
-│   ├── Gnome_Black.png
-│   ├── Gnome_White.png
-│   ├── Suse.png
-│   ├── Tux.png
-│   ├── Ubuntu.png
-│   ├── ubuntu-logo.png
-│   ├── ubuntu-logo48.png
-│   └── ubuntulogo32.png
-├── metadata.json
-├── prefs.js
-├── schemas
-│   ├── HOWTO
-│   ├── gschemas.compiled
-│   └── org.gnome.shell.extensions.apps-menu-icon.gschema.xml
-└── stylesheet.css
+``` bash 
+$ git clone git@github.com:ktkr3d/apps-menu-icon.git ~/.local/share/gnome-shell/extensions/apps-menu-icon@ktkr3d.github.io
 ```
