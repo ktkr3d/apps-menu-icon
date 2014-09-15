@@ -1,12 +1,15 @@
-
-
 #panelApplications .panel-status-menu-box StLabel:first-child {
     height: 1px;
+    background: url('icons/ubuntu-logo48.png');
 /*
     background: url('/usr/share/icons/Adwaita/24x24/places/start-here.png');
-*/
-    background: url('icons/ubuntulogo32.png');
+    background: url('icons/Fedora.png');
+    background: url('icons/Debian.png');
+    background: url('icons/Suse.png');
+    background: url('icons/Ubuntu.png');
     background-size: 24px 24px;
-    width: 30px;
+*/
+    background-size: 40px 40px;
+    width: 36px;
 }
 

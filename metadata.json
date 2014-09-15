@@ -6,5 +6,6 @@
 		"3.10"],
 	"uuid": "apps-menu-icon@ktkr3d.github.io",
 	"name": "Applications Menu Icon",
-	"description": "Change Applications Menu GNOME Shell Extension Button to Icon"
+	"description": "Change Applications Menu GNOME Shell Extension Button to Icon",
+	"gettext-domain": "apps-menu-icon"
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="apps-menu-icon">
+  <enum id='org.gnome.shell.extensions.apps-menu-icon.distro'>
+    <value value='1' nick='Debian'/>
+    <value value='2' nick='Fedora'/>
+    <value value='3' nick='Gentoo'/>
+    <value value='4' nick='Suse'/>
+    <value value='5' nick='Tux'/>
+    <value value='6' nick='Ubuntu'/>
+  </enum>
+  <schema path="/org/gnome/shell/extensions/apps-menu-icon/" id="org.gnome.shell.extensions.apps-menu-icon">
+    <key type="b" name="enable-replace-icon">
+      <default>true</default>
+      <summary>enable-replace-icon</summary>
+      <description>enable-replace-icon</description>
+    </key>
+    <key enum="org.gnome.shell.extensions.apps-menu-icon.distro" name="icon-distro">
+      <default>'Tux'</default>
+      <summary>Linux Distribution</summary>
+      <description>Linux Distribution image</description>
+    </key>
+    <key type="d" name="icon-size">
+      <default>24</default>
+      <summary>icon size (px)</summary>
+      <description>icon size</description>
+    </key>
+    <key type="d" name="button-width">
+      <default>30</default>
+      <summary>button width (px)</summary>
+      <description>button width</description>
+    </key>
+  </schema>
+</schemalist>
